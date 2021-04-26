@@ -29,7 +29,7 @@ function numberToWord(array) {
         } newArray.push(currentNum)
 
     }
-    console.log(newArray)
+    console.log(newArray.join(','))
 }
 
 let testArray = [1, 34, 507]
